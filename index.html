@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Utilities</title>
+    <style>
+        /* @formatter:off */
+        * { box-sizing: border-box; }
+        body { font-family: sans-serif; padding:40px 20px; }
+        .flex { display: flex; flex-direction: column; max-width: 360px; gap: 15px; }
+    </style>
+    <script type="module" src="index.js" defer></script>
+</head>
+<body>
+
+<h1>Utilities</h1>
+<hr>
+<!-- Fibonacci Number -->
+<div class="flex">
+    <h2>Fibonacci Numbers</h2>
+    <label for="fib">Find the n'th Fibonacci Number</label>
+    <input id="fib" name="fib" type="number" min="0" max="100">
+    <button type="submit" id="submit-fib">Get F<sub>n</sub></button>
+    <span id="fib-result"></span>
+
+    <p>
+        <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjdzKSev7_8AhWFR_EDHRjxB0sQFnoECBwQAQ&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFibonacci_number&usg=AOvVaw2dsgqNJhmIhwtavtJkxvAM">
+            More on Fibonacci Number
+        </a>
+    </p>
+</div>
+
+<hr>
+<!-- Temperature -->
+<div class="flex">
+    <h2>Temperature</h2>
+    <label for="temp">Convert temperature from °C to °F and vice versa</label>
+    <div>
+        <input name="temp" id="temp" type="number">
+        <input selected name="temp-type" id="celcius" type="radio">
+        <label for="celcius">°C</label>
+        <input name="temp-type" id="farenheit" type="radio">
+        <label for="farenheit">°F</label>
+    </div>
+
+    <button type="submit" id="submit-temp">Convert</button>
+    <span id="temp-result"></span>
+</div>
+
+<hr>
+<!-- Currency -->
+<div class="flex">
+    <h2>Currency Converter</h2>
+    <label for="amount">Convert different amount of currencies</label>
+    <div>
+        <input id="amount" name="amount" type="number" placeholder="100">
+        <label for="convertFrom"></label>
+        <select name="convertFrom" id="convertFrom">
+            <option selected>NOK</option>
+            <option>EUR</option>
+            <option>GBP</option>
+            <option>USD</option>
+        </select>
+
+        <label for="convertTo"></label>
+        <select name="convertTo" id="convertTo">
+            <option>NOK</option>
+            <option>EUR</option>
+            <option selected>GBP</option>
+            <option>USD</option>
+        </select>
+    </div>
+
+    <button type="submit" id="submit-currency">Convert</button>
+    <span id="currency-result"></span>
+</div>
+
+</body>
+</html>
