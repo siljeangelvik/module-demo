@@ -8,3 +8,4 @@
 > * Find the n'th Fibonacci Number  
 > * Convert temperature  
 > * Convert currencies  
+> * Filter/Search Amiibos
