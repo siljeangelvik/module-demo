@@ -6,13 +6,6 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Utilities</title>
-    <style>
-        /* @formatter:off */
-        * { box-sizing: border-box; }
-        body { font-family: sans-serif; padding:40px 20px; }
-        .flex { display: flex; flex-direction: column; max-width: 360px; gap: 15px; }
-        .flex-row { display: flex; gap: 10px; align-items: center; }
-    </style>
     <script type="module" src="index.js" defer></script>
 </head>
 <body>
@@ -87,27 +80,27 @@
 <div class="flex">
     <h2>Currency Converter</h2>
     <label for="amount">Convert different amount of currencies</label>
-        <input id="amount" name="amount" type="number" placeholder="100">
+    <input id="amount" name="amount" type="number" placeholder="100">
 
-        <div class="flex-row">
-            <label for="convertFrom"><strong>From:</strong></label>
-            <input list="convertFromSymbols" id="convertFrom" name="convertFrom" type="text" placeholder="Type a currency code">
-            <datalist id="convertFromSymbols">
-                <option value="NOK">Norske Kroner (NOK)</option>
-                <option>EUR</option>
-                <option>GBP</option>
-                <option>USD</option>
-            </datalist>
+    <div class="flex-row">
+        <label for="convertFrom"><strong>From:</strong></label>
+        <input list="convertFromSymbols" id="convertFrom" name="convertFrom" type="text" placeholder="Type a currency code">
+        <datalist id="convertFromSymbols">
+            <option value="NOK">Norske Kroner (NOK)</option>
+            <option>EUR</option>
+            <option>GBP</option>
+            <option>USD</option>
+        </datalist>
 
-           <label for="convertTo"><strong>To:</strong></label>
-           <input list="convertToSymbols" id="convertTo" name="convertFrom" type="text" placeholder="Type a currency code">
-           <datalist id="convertToSymbols">
-               <option>NOK</option>
-               <option>EUR</option>
-               <option>GBP</option>
-               <option>USD</option>
-           </datalist>
-       </div>
+        <label for="convertTo"><strong>To:</strong></label>
+        <input list="convertToSymbols" id="convertTo" name="convertFrom" type="text" placeholder="Type a currency code">
+        <datalist id="convertToSymbols">
+            <option>NOK</option>
+            <option>EUR</option>
+            <option>GBP</option>
+            <option>USD</option>
+        </datalist>
+    </div>
 
     <button type="submit" id="submit-currency">Convert</button>
     <span id="currency-result"></span>
@@ -119,35 +112,31 @@
     <h2>Filter/Search Amiibos</h2>
     <label for="search-amiibos">Search through amiibo characters</label>
 
-   <div>
-       <input id="search-amiibos" name="search-amiibos" placeholder="Search for Amiibo Characters">
-       <div>
+    <div>
+        <input id="search-amiibos" name="search-amiibos" placeholder="Search for Amiibo Characters">
+        <div>
 
-        Include search for:
-        <label for="amiibo-name">Full Name</label>
-        <input type="checkbox" id="amiibo-name" name="amiibo-name">
-
-
-        <label for="amiibo-game">Game Series</label>
-        <input type="checkbox" id="amiibo-game" name="amiibo-game">
+            Include search for:
+            <label for="amiibo-name">Full Name</label>
+            <input type="checkbox" id="amiibo-name" name="amiibo-name">
 
 
-        <label for="amiibo-series">Amiibo Series</label>
-        <input type="checkbox" id="amiibo-series" name="amiibo-series">
+            <label for="amiibo-game">Game Series</label>
+            <input type="checkbox" id="amiibo-game" name="amiibo-game">
 
-           <button id="openAll">Open all boxes</button>
-           <button id="closeAll">Close all boxes</button>
-       </div>
-   </div>
-    
+
+            <label for="amiibo-series">Amiibo Series</label>
+            <input type="checkbox" id="amiibo-series" name="amiibo-series">
+
+            <button id="openAll">Open all boxes</button>
+            <button id="closeAll">Close all boxes</button>
+        </div>
+    </div>
+
     <div id="amiibos" style="display: grid; grid-template-columns: auto auto auto auto; margin-top: 20px;"></div>
 </div>
 
 <hr>
-
-
-
-
 
 </body>
 </html>
