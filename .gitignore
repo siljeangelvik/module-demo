@@ -8,4 +8,4 @@ workspace.xml
 
 # Dependency directories
 node_modules/
-
+package-lock.json
