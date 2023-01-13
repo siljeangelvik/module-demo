@@ -14,9 +14,7 @@ Netlify: [demo-webpack-bundler](https://demo-webpack-bundler.netlify.app)
 > * Convert currencies
 > * Filter/Search Amiibos
 
-
 ### Branch: Webpack
-
 Initialize Node.js project  
 `$ npm init -y`  
 Install webpack bundler   
@@ -36,10 +34,3 @@ Install vite bundler
 `npm i vite`  
 Run all build scripts  
 `npm run build`
-
-
-
-
-
-
-### Resources:
