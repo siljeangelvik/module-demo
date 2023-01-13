@@ -19,18 +19,18 @@ Initialize Node.js project
 `$ npm init -y`  
 Install webpack bundler   
 `$ npm install webpack webpack-cli --save-dev`  
-Install html webpack plugin 
+Install html webpack plugin  
 `$ npm install --save-dev html-webpack-plugin`  
 Run all build scripts  
-`$ npm run build`
-Install css loader
+`$ npm run build`  
+Install css loader  
 `$ npm install --save-dev style-loader css-loader`
 
 
 ### Branch: Vite
 Initialize Node.js project  
-`npm init -y`  
+`$ npm init -y`  
 Install vite bundler  
-`npm i vite`  
+`$ npm i vite`  
 Run all build scripts  
-`npm run build`
+`$ npm run build`
