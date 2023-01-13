@@ -2,12 +2,16 @@
 
 ## Industry Knowledge
 
-11.01.2023
+#### January 2023, (11.01.2023)
 
-> #### Modules:  
-> * Find the n'th Fibonacci Number  
-> * Convert temperature  
-> * Convert currencies  
+Netlify: [demo-vite-bundler](https://demo-vite-bundler.netlify.app)  
+Netlify: [demo-webpack-bundler](https://demo-webpack-bundler.netlify.app)
+
+
+> #### Modules:
+> * Find the n'th Fibonacci Number
+> * Convert temperature
+> * Convert currencies
 > * Filter/Search Amiibos
 
 
@@ -20,8 +24,8 @@ Install module bundler webpack
 Install plugin html webpack   
 `$ npm install --save-dev html-webpack-plugin`  
 Run all build scripts  
-`$ npm run build`  
-...  
+`$ npm run build`
+
 `$ npm install --save-dev style-loader css-loader`
 
 
@@ -34,4 +38,8 @@ Run all build scripts
 `npm run ...`
 
 
-----
+
+
+
+
+### Resources:
