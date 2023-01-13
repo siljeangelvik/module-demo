@@ -22,6 +22,8 @@ Install plugin html webpack
 Run all build scripts  
 `$ npm run build`  
 
+`$ npm install --save-dev style-loader css-loader`
+
 
 ### Branch: Vite
 Initialize Node.js project  
