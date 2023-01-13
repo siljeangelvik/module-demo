@@ -5,6 +5,8 @@ modules.xml
 Project_Default.xml
 vcs.xml
 workspace.xml
+jsLibraryMappings.xml
+module-demo.iml
 
 # Dependency directories
 node_modules/
