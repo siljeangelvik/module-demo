@@ -2,9 +2,10 @@
 
 ## Industry Knowledge
 
-11.01.2023
+#### January 2023, (11.01.2023)
 
-Netlify: [demo-vite-bundler](https://demo-vite-bundler.netlify.app)
+Netlify: [demo-vite-bundler](https://demo-vite-bundler.netlify.app)  
+Netlify: [demo-webpack-bundler](https://demo-webpack-bundler.netlify.app)
 
 
 > #### Modules:  
