@@ -104,24 +104,4 @@ function toggleDetails(mode) {
         if (mode === "open") element.setAttribute('open', true);
         if (mode === "close") element.removeAttribute('open');
     }
-    
-    
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
