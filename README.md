@@ -21,7 +21,7 @@ Install plugin html webpack
 `$ npm install --save-dev html-webpack-plugin`  
 Run all build scripts  
 `$ npm run build`  
-
+...  
 `$ npm install --save-dev style-loader css-loader`
 
 
@@ -34,8 +34,4 @@ Run all build scripts
 `npm run ...`
 
 
-
-
-
-
-### Resources:
+----
